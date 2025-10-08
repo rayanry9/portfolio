@@ -15,20 +15,14 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
-           version: 8
-
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-         node-version: 24
-         cache: npm
+           version: 10
 
       - name: Install dependencies
         run: pnpm i
 
       - name: build
         env:
-         BASE_PATH: '/${{ github.event.repository.name }}'
+         BASE_PATH: ''
         run: |
          pnpm run build
 
