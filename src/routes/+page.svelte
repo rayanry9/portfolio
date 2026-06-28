@@ -8,6 +8,6 @@
 
 	<div class="mt-12 flex flex-row gap-x-8">
 		<a href="https://github.com/rayanry9">Github</a>
-		<a href="https://linkedin.com/in/rayanh9">Github</a>
+		<a href="https://linkedin.com/in/rayanh9">Linkedin</a>
 	</div>
 </div>
